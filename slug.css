@@ -1,0 +1,52 @@
+/*------------------------------------------------------------------
+Some very specific styles that will work with the default settings.
+Supported in modern browsers but will probably eat flaming death 
+in IE. I'll fix later but feel free to change to your liking.
+
+By:Bermon Painter  http://bermonpainter.com
+------------------------------------------------------------------*/
+form label {
+  display: inline-block;
+  float: left;
+  font-size: .9em;
+  font-weight: bold;
+  margin: 13px 5px 0 0;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0px #fff;
+  width: 120px;
+}
+form input[type=text] {
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+  color: #333;
+  font-size: 1.1em;
+  margin: 0 0 10px;
+  padding: 8px 8px;
+  width: 250px;
+  -moz-box-shadow: #d9d9d9 0 2px 3px  inset,#fff 0 1px 0px;
+  -webkit-box-shadow: #d9d9d9 0 2px 3px inset,#fff 0 1px 0px;
+  box-shadow: #d9d9d9 0 2px 3px  inset,#fff 0 1px 0px;
+  text-shadow: white 1px 1px 0;
+}
+form #custom-slug {
+  color: #333;
+  display: inline-block;
+  font-size: 1.1em;
+  margin: 0 0 10px;
+  padding: 8px 8px 11px;
+  text-shadow: white 1px 1px 0;
+}
+form #custom-slug .slug {
+  display: inline-block;
+  width: 250px;
+}
+form #custom-slug #edit-slug {
+  font-size: .7em;
+  text-transform: uppercase;
+}
